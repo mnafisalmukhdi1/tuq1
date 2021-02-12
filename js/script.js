@@ -68,11 +68,11 @@ monogatari.configuration ('credits', {
 // Script
 monogatari.script ({
 	'_SplashScreen': [
-		'play music rakha',
 		'show scene rakha with fadeIn duration 3s',
 		'clear',
+		'play music rakha',
 		'wait 8000',
-		'jump Start'
+		'end'
 	],
 	'Start': [
 		'play voice dialog_001',
