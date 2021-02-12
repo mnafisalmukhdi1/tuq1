@@ -38,18 +38,17 @@ monogatari.script ({
 		'end'
 	],
 	'Start': [
+		'show background bg',
 		'nvl Prolog',
 		'jump Prolog'
 	],
 	'Prolog': [
-		'show background bg',
 		'Qiraat banyak macamnya.',
 		'Dari segi kuantitas, ada <b><i>Qiraat Sab’ah, Qiraat Asyarah</i>,</b> dan <b><i>Qiraat Arba’ah Asyarah</i></b>.',
 		'Dari segi kualitas, ada <b><i>Qiraat Mutawatir, Qiraat Masyhur, Qiraat Ahad, Qiraat Syadz,</i></b> dan <b><i>Qiraat</i> yang menyerupai <i>hadis mudraj</i> (sisipan)</b>.',
 		'jump Intro00'
 	],
 	'Intro00': [
-		'hide background bg',
 		'nvl Pembahasan',
 		'jump Intro01'
 	],
@@ -59,7 +58,6 @@ monogatari.script ({
 		'jump Pembahasan01'
 	],
 	Pembahasan01: [
-		'show background bg',
 		'Qiraat telah muncul sejak masa Nabi saw. walau bukan disiplin ilmu, karena perbedaan para sahabat melafazkan Al-Qur’an dapat ditanyakan langsung kepada Nabi saw., sedangkan Nabi tidak pernah menyalahkan para sahabat yang berbeda itu, sehingga tidak fanatik terhadap lafaz yang digunakan atau yang pernah didengar Nabi.',
 		'Riwayat yang menguatkan pendapat tersebut adalah Hadits Sunan An-Nasa`i No. 927 - Kitab Iftitah (Pembukaan), Hadits Jami` At-Tirmidzi No. 2867 - Kitab Qira`at, dan Hadits Jami` At-Tirmidzi No. 2868 - Kitab Qira`at.',
 		'Ketiga riwayat tersebut membuktikan meski sahabat mengucapkan lafaz al-Quran secara berbeda, Nabi saw. tidak menyalahkan dan memberi jawaban bahwa al-Quran diturunkan tujuh huruf.',
@@ -74,13 +72,11 @@ monogatari.script ({
 		'jump Intro02'
 	],
 	'Intro02': [
-		'hide background bg',
 		'nvl Pembahasan Kedua',
 		'nvl Latar Belakang Cara Penyampaian',
 		'jump Pembahasan02'
 	],
 	'Pembahasan02': [
-		'show background bg',
 		'Setelah para sahabat tersebar, mereka membacakan qira’at Al-Qur’an kepada murid-muridnya secara turun temurun. Akhirnya, para murid lebih suka  mengemukakan qira’at gurunya dari pada mengikuti qira’at imam yang lain.',
 		'Berikut adalah rangkuman beberapa bentuk perbedaan cara melafazkan Al-Qur’an menurut ulama.',
 		'Perbedaan dalam <i>I’rab</i> atau harakat kalimat tanpa perubahan makna dan bentuk kalimat. Misalnya dapat dilihat dalam Qs. an-Nisa[4]:37 (kata <i>bil-bukhli</i> yang berarti kikir dapat dibaca fathah pada huruf <i>ba</i>-nya, sehingga dapat dibaca <i>bil-bakhli</i> tanpa perubahan makna).',
