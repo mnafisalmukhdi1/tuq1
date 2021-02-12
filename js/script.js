@@ -49,6 +49,7 @@ monogatari.script ({
 		'jump Intro00'
 	],
 	'Intro00': [
+		'hide background bg',
 		'nvl Pembahasan',
 		'jump Intro01'
 	],
