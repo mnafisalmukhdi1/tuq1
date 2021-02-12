@@ -71,8 +71,8 @@ monogatari.script ({
 		'play music rakha',
 		'show scene rakha with fadeIn duration 3s',
 		'clear',
-		'wait 5000',
-		'end'
+		'wait 8000',
+		'jump Start'
 	],
 	'Start': [
 		'play voice dialog_001',
