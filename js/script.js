@@ -9,37 +9,6 @@ monogatari.assets ('scenes', {
 	'rakha': 'rakha.png',
 });
 
-// Assets for Voices
-monogatari.assets ('voice', {
-	'dialog_001': 'dialog_001.mp3',
-	'dialog_002': 'dialog_002.mp3',
-	'dialog_003': 'dialog_003.mp3',
-	'dialog_004': 'dialog_004.mp3',
-	'dialog_005': 'dialog_005.mp3',
-	'dialog_006_a': 'dialog_006_a.mp3',
-	'dialog_006_b': 'dialog_006_b.mp3',
-	'dialog_007': 'dialog_007.mp3',
-	'dialog_008': 'dialog_008.mp3',
-	'dialog_009': 'dialog_009.mp3',
-	'dialog_010': 'dialog_010.mp3',
-	'dialog_011': 'dialog_011.mp3',
-	'dialog_012': 'dialog_012.mp3',
-	'dialog_013': 'dialog_013.mp3',
-	'dialog_014': 'dialog_014.mp3',
-	'dialog_015': 'dialog_015.mp3',
-	'dialog_016': 'dialog_016.mp3',
-	'dialog_017': 'dialog_017.mp3',
-	'dialog_018_a': 'dialog_018_a.mp3',
-	'dialog_018_b': 'dialog_018_b.mp3',
-	'dialog_019': 'dialog_019.mp3',
-	'dialog_020': 'dialog_020.mp3',
-	'dialog_021': 'dialog_021.mp3',
-	'dialog_022': 'dialog_022.mp3',
-	'dialog_023': 'dialog_023.mp3',
-	'dialog_024': 'dialog_024.mp3',
-	'dialog_025': 'dialog_025.mp3',
-});
-
 // Component: Main Screen
 monogatari.component ('main-screen').template (() => {
     return `
@@ -70,7 +39,6 @@ monogatari.script ({
 	'_SplashScreen': [
 		'show scene rakha with fadeIn duration 3s',
 		'clear',
-		'play music rakha',
 		'wait 8000',
 		'end'
 	],
@@ -81,31 +49,23 @@ monogatari.script ({
 	],
 	'Prolog': [
 		'show background bg',
-		'play voice dialog_002',
 		'Qiraat banyak macamnya.',
-		'play voice dialog_003',
 		'Dari segi kuantitas, ada <b><i>Qiraat Sab’ah, Qiraat Asyarah</i>,</b> dan <b><i>Qiraat Arba’ah Asyarah</i></b>.',
-		'play voice dialog_004',
 		'Dari segi kualitas, ada <b><i>Qiraat Mutawatir, Qiraat Masyhur, Qiraat Ahad, Qiraat Syadz,</i></b> dan <b><i>Qiraat</i> yang menyerupai <i>hadis mudraj</i> (sisipan)</b>.',
 		'jump Intro00'
 	],
 	'Intro00': [
-		'play voice dialog_005',
 		'nvl Pembahasan',
 		'jump Intro01'
 	],
 	'Intro01': [
-		'play voice dialog_006_a',
 		'nvl Pembahasan Pertama',
-		'play voice dialog_006_b',
 		'nvl Latar Belakang Historis',
 		'jump Pembahasan01'
 	],
 	Pembahasan01: [
 		'show background bg',
-		'play voice dialog_007',
 		'Qiraat telah muncul sejak masa Nabi saw. walau bukan disiplin ilmu, karena perbedaan para sahabat melafazkan Al-Qur’an dapat ditanyakan langsung kepada Nabi saw., sedangkan Nabi tidak pernah menyalahkan para sahabat yang berbeda itu, sehingga tidak fanatik terhadap lafaz yang digunakan atau yang pernah didengar Nabi.',
-		'play voice dialog_008',
 		'Riwayat yang menguatkan pendapat tersebut adalah Hadits Sunan An-Nasa`i No. 927 - Kitab Iftitah (Pembukaan), Hadits Jami` At-Tirmidzi No. 2867 - Kitab Qira`at, dan Hadits Jami` At-Tirmidzi No. 2868 - Kitab Qira`at.',
 		'play voice dialog_009',
 		'Ketiga riwayat tersebut membuktikan meski sahabat mengucapkan lafaz al-Quran secara berbeda, Nabi saw. tidak menyalahkan dan memberi jawaban bahwa al-Quran diturunkan tujuh huruf.',
