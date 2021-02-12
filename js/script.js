@@ -42,7 +42,7 @@ monogatari.script ({
 	'_SplashScreen': [
 		'play music rakha',
 		'show scene rakha with fadeIn duration 3s',
-		'wait 8000',
+		'wait 5000',
 		'end'
 	],
 	'Start': [
