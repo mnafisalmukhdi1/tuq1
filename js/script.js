@@ -1,8 +1,3 @@
-// Assets for Music
-monogatari.assets ('music', {
-    'rakha': 'mars-rakha.mp3',
-});
-
 // Assets for Scenes and Backgrounds
 monogatari.assets ('scenes', {
 	'bg': 'masjid.jpg',
@@ -43,7 +38,6 @@ monogatari.script ({
 		'end'
 	],
 	'Start': [
-		'play voice dialog_001',
 		'nvl Prolog',
 		'jump Prolog'
 	],
@@ -67,47 +61,31 @@ monogatari.script ({
 		'show background bg',
 		'Qiraat telah muncul sejak masa Nabi saw. walau bukan disiplin ilmu, karena perbedaan para sahabat melafazkan Al-Qur’an dapat ditanyakan langsung kepada Nabi saw., sedangkan Nabi tidak pernah menyalahkan para sahabat yang berbeda itu, sehingga tidak fanatik terhadap lafaz yang digunakan atau yang pernah didengar Nabi.',
 		'Riwayat yang menguatkan pendapat tersebut adalah Hadits Sunan An-Nasa`i No. 927 - Kitab Iftitah (Pembukaan), Hadits Jami` At-Tirmidzi No. 2867 - Kitab Qira`at, dan Hadits Jami` At-Tirmidzi No. 2868 - Kitab Qira`at.',
-		'play voice dialog_009',
 		'Ketiga riwayat tersebut membuktikan meski sahabat mengucapkan lafaz al-Quran secara berbeda, Nabi saw. tidak menyalahkan dan memberi jawaban bahwa al-Quran diturunkan tujuh huruf.',
-		'play voice dialog_010',
 		'Ulama berbeda pendapat dalam menafsirkan <i>tujuh huruf</i>.',
-		'play voice dialog_011',
 		'Sebagian besar ulama berpendapat tujuh huruf adalah tujuh macam bahasa dari bahasa-bahasa Arab mengenai satu makna. Ketujuh bahasa yang dimaksud adalah bahasa Quraisy, Huzail, Tsaqif, Hawazin, Kinanah, Tamim, dan Yaman. Menurut Abu Hatim al- Sijistani, ketujuh bahasa tersebut yaitu Quraisy, Huzail, Tamim, Azad, Rabi‟ah, Hawazin, dan Sa`ad bin Bakr.',
-		'play voice dialog_012',
 		'Ada yang berpendapat tujuh huruf adalah tujuh macam bahasa dari bahasa-bahasa Arab dimana al-Qur`an diturunkan. Misalnya kata فطر artinya menurut selain bahasa Quraisy adalah ابتدأ dan ini terdapat dalam al-Qur`an.',
-		'play voice dialog_013',
 		'Ada yang berpendapat tujuh huruf adalah tujuh bentuk yaitu <b><i>amr, nahyu, halâl, harâm, muhkam, mutasyâbih,</i> dan <i>amtsâl,</i></b> atau <b><i>wa‟ad, wa‟îd, halâl, harâm, mawâ‟idh, amtsâl,</i> dan </i>ikhtijâj</i></b>.',
-		'play voice dialog_014',
 		'Ada sekelompok ulama yang berpendapat: tujuh huruf adalah tujuh macam hal yang terjadi perbedaan (ikhtilâf) di dalamnya yaitu perbedaan: dalam al-Asmâ` (kata benda); dari segi i’râb (harakat akhir kata); dari segi tashrîf al-Fi’li (perubahan bentuk kata kerja); dalam taqdîm (mendahulukan) dan ta`khîr (mengakhirkan); dari segi ibdâl (penggantian); dari segi ziyâdah (penambahan); lahjah (dialek).',
-		'play voice dialog_015',
 		'Sebagian ulama berpendapat bilangan tujuh itu tidak diartikan secara harfiyah. Hanya sebagai lambang kesempurnaan menurut kebiasaan orang Arab. Sebab lafaz sab‟ah dipergunakan pula untuk menunjukkan jumlah banyak dan sempurna dalam bilangan satuan. Tetapi kata-kata itu tidak dimaksudkan untuk menunjukkan bilangan tertentu.',
-		'play voice dialog_016',
 		'Qiraat bisa diketahui benar atau tidaknya asal memenuhi tiga syarat. Pertama, sesuai dengan kaidah bahasa Arab. Kedua, sesuai dengan mushaf Usmani. Ketiga, sanadnya shahih. Apabila qiraat tidak memenuhi syarat meski hanya salah satu, qiraat dianggap tidak sah atau lemah.',
-		'play voice dialog_017',
 		'Abu Ubaid al-Qasim bin Salam adalah orang pertama yang menyusun qiraat, disusul ulama lain. Mereka berbeda dalam menetapkan jumlah syarat-syarat qira’at yang benar.',
 		'jump Intro02'
 	],
 	'Intro02': [
-		'play voice dialog_018_a',
+		'hide background bg',
 		'nvl Pembahasan Kedua',
-		'play voice dialog_018_b',
 		'nvl Latar Belakang Cara Penyampaian',
 		'jump Pembahasan02'
 	],
 	'Pembahasan02': [
-		'play voice dialog_019',
+		'show background bg',
 		'Setelah para sahabat tersebar, mereka membacakan qira’at Al-Qur’an kepada murid-muridnya secara turun temurun. Akhirnya, para murid lebih suka  mengemukakan qira’at gurunya dari pada mengikuti qira’at imam yang lain.',
-		'play voice dialog_020',
 		'Berikut adalah rangkuman beberapa bentuk perbedaan cara melafazkan Al-Qur’an menurut ulama.',
-		'play voice dialog_021',
 		'Perbedaan dalam <i>I’rab</i> atau harakat kalimat tanpa perubahan makna dan bentuk kalimat. Misalnya dapat dilihat dalam Qs. an-Nisa[4]:37 (kata <i>bil-bukhli</i> yang berarti kikir dapat dibaca fathah pada huruf <i>ba</i>-nya, sehingga dapat dibaca <i>bil-bakhli</i> tanpa perubahan makna).',
-		'play voice dialog_022',
 		'Perubahan pada <i>I’rab</i> dan harakat, sehingga dapat merubah maknanya. Misalnya dalam Qs. Saba’[34]:19 (Kata <i>baa’id</i> artinya jauhkanlah, yang kedudukannya sebagai <i>fi’il amr</i>, boleh juga dibaca <i>ba’ada</i> yang kedudukannya menjadi <i>fi’il madhi</i>, sehingga maknanya berubah “telah jauh”).',
-		'play voice dialog_023',
 		'Perbedaan pada perubahan huruf tanpa perubahan <i>I’rab</i> dan bentuk tulisan, sedangkan makna berubah. Misalnya dalam QS. al-Baqarah[2]:259 (Kata <i>nunsyizuha</i> “Kami menyusun kembali” ditulis dengan huruf zay diganti dengan huruf ra, sehingga berubah bunyi menjadi <i>nunsyiruha</i> yang berarti “Kami hidupkan kembali”).',
-		'play voice dialog_024',
 		'Perubahan pada kalimat dengan perubahan pada bentuk tulisan, tapi makna tidak berubah. Misalnya dalam Qs. al-Qari’ah[101]:5 (Kata <i>ka-al-‘ihni</i> “bulu-bulu” kadang dibaca <i>ka-ash-shufi</i> “bulu-bulu domba”. Perubahan ini berdasarkan ijmak ulama, namun tidak dibenarkan karena bertentangan dengan mushaf Usmani).',
-		'play voice dialog_025',
 		'Demikian, menyebarnya imam qiraat ke berbagai daerah mengajarkan <i>lahjah</i> (dialek) mereka masing-masing, hal itu melahirkan hal-hal yang tidak diinginkan yaitu timbulnya qira’at yang beraneka ragam, maka para ulama mengambil inisiatif untuk meneliti qira’at dari berbagai penyimpangan.',
 		'end'
 	]
