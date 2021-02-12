@@ -45,4 +45,7 @@ monogatari.script ({
 		'wait 8000',
 		'end'
 	],
-	});
+	'Start': [
+		'nvl Prolog',
+	],
+});
