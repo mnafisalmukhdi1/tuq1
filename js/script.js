@@ -49,7 +49,13 @@ monogatari.script ({
 	],
 	'Start': [
 		'nvl Prolog',
-		'show background bg',
-		
+		'jump Prolog',
 	],
+	'Prolog': [
+		'show background bg',
+		'Qiraat banyak macamnya.',
+		'Dari segi kuantitas, ada <b><i>Qiraat Sab’ah, Qiraat Asyarah</i>,</b> dan <b><i>Qiraat Arba’ah Asyarah</i></b>.',
+		'Dari segi kualitas, ada <b><i>Qiraat Mutawatir, Qiraat Masyhur, Qiraat Ahad, Qiraat Syadz,</i></b> dan <b><i>Qiraat</i> yang menyerupai <i>hadis mudraj</i> (sisipan)</b>.
+',
+	]
 });
