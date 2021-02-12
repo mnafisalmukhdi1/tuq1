@@ -45,7 +45,10 @@ button:hover {
 
 /* Main Menu Styling */
 [data-screen="main"] {
-
+	background-image:url(https://mnafisalmukhdi1.github.io/tuq1/assets/scenes/main-screen.png);
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 /* Main Menu Buttons Styling */
