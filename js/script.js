@@ -106,7 +106,7 @@ monogatari.script ({
 		'play voice dialog_007',
 		'Qiraat telah muncul sejak masa Nabi saw. walau bukan disiplin ilmu, karena perbedaan para sahabat melafazkan Al-Qur’an dapat ditanyakan langsung kepada Nabi saw., sedangkan Nabi tidak pernah menyalahkan para sahabat yang berbeda itu, sehingga tidak fanatik terhadap lafaz yang digunakan atau yang pernah didengar Nabi.',
 		'play voice dialog_008',
-		'Riwayat yang menguatkan pendapat tersebut adalah Hadits Sunan An-Nasa'i No. 927 - Kitab Iftitah (Pembukaan), Hadits Jami' At-Tirmidzi No. 2867 - Kitab Qira`at, dan Hadits Jami' At-Tirmidzi No. 2868 - Kitab Qira`at.',
+		'Riwayat yang menguatkan pendapat tersebut adalah Hadits Sunan An-Nasa`i No. 927 - Kitab Iftitah (Pembukaan), Hadits Jami` At-Tirmidzi No. 2867 - Kitab Qira`at, dan Hadits Jami` At-Tirmidzi No. 2868 - Kitab Qira`at.',
 		'play voice dialog_009',
 		'Ketiga riwayat tersebut membuktikan meski sahabat mengucapkan lafaz al-Quran secara berbeda, Nabi saw. tidak menyalahkan dan memberi jawaban bahwa al-Quran diturunkan tujuh huruf.',
 		'play voice dialog_010',
