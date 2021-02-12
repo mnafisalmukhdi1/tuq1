@@ -123,7 +123,7 @@ monogatari.script ({
 		'Sebagian ulama berpendapat bilangan tujuh itu tidak diartikan secara harfiyah. Hanya sebagai lambang kesempurnaan menurut kebiasaan orang Arab. Sebab lafaz sab‟ah dipergunakan pula untuk menunjukkan jumlah banyak dan sempurna dalam bilangan satuan. Tetapi kata-kata itu tidak dimaksudkan untuk menunjukkan bilangan tertentu.',
 		'play voice dialog_016',
 		'Qiraat bisa diketahui benar atau tidaknya asal memenuhi tiga syarat. Pertama, sesuai dengan kaidah bahasa Arab. Kedua, sesuai dengan mushaf Usmani. Ketiga, sanadnya shahih. Apabila qiraat tidak memenuhi syarat meski hanya salah satu, qiraat dianggap tidak sah atau lemah.',
-		'play voice dialog_017'
+		'play voice dialog_017',
 		'Abu Ubaid al-Qasim bin Salam adalah orang pertama yang menyusun qiraat, disusul ulama lain. Mereka berbeda dalam menetapkan jumlah syarat-syarat qira’at yang benar.',
 		'jump Intro02'
 	],
