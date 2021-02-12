@@ -35,7 +35,7 @@ monogatari.script ({
 		'show scene rakha with fadeIn duration 3s',
 		'centered &nbsp;',
 		'wait 8000',
-		'jump Start',
+		'end'
 	],
 	'Start': [
 		'show background bg',
