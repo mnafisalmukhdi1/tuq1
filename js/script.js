@@ -6,6 +6,7 @@ monogatari.assets ('music', {
 // Assets for Scenes and Backgrounds
 monogatari.assets ('scenes', {
 	'bg': 'masjid.jpg',
+	'rakha': 'rakha.png',
 });
 
 // Assets for Voices
@@ -47,5 +48,7 @@ monogatari.script ({
 	],
 	'Start': [
 		'nvl Prolog',
+		'show background bg',
+		
 	],
 });
