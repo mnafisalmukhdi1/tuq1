@@ -33,9 +33,9 @@ monogatari.configuration ('credits', {
 monogatari.script ({
 	'_SplashScreen': [
 		'show scene rakha with fadeIn duration 3s',
-		'clear',
+		'centered &nbsp;',
 		'wait 8000',
-		'end'
+		'jump Start',
 	],
 	'Start': [
 		'show background bg',
