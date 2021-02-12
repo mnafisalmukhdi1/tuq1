@@ -69,7 +69,7 @@ monogatari.configuration ('credits', {
 monogatari.script ({
 	'_SplashScreen': [
 		'play music rakha',
-		'show scene rakha with fadeIn duration 8s',
+		'show scene rakha with fadeIn duration 3s',
 		'clear',
 		'wait 5000',
 		'end'
