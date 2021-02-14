@@ -1,3 +1,8 @@
+// Assets for Music
+monogatari.assets ('music', {
+	'rakha': 'mars-rakha.mp3',
+});
+
 // Assets for Scenes and Backgrounds
 monogatari.assets ('scenes', {
 	'bg': 'masjid.jpg',
@@ -32,6 +37,7 @@ monogatari.configuration ('credits', {
 // Script
 monogatari.script ({
 	'_SplashScreen': [
+		'play music rakha',
 		'show scene rakha with fadeIn duration 3s',
 		'centered &nbsp;',
 		'wait 3000',
